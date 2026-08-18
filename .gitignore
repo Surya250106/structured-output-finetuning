@@ -1,0 +1,30 @@
+# LlamaFactory checkpoints & models
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+checkpoint-*/
+adapter_model*
+models/
+huggingface/
+.cache/
+
+# Python environment & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private/local held-out evaluation data (ground truth)
+data/evaluation_set.jsonl
