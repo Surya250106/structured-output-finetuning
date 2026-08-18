@@ -1,0 +1,2 @@
+filename,raw_output_first_50_chars,is_valid_json,has_all_required_keys,key_accuracy,value_accuracy,notes
+EVAL_xxx,Pending actual evaluation.,False,False,0.0,0.0,Pending
